@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <style>
+        body{
+            background-color: green;
+        }
+        button{
+            border-radius: 6px;
+            color: white;
+            background-color: #146666;
+            width: 100px;
+            height: 30px;
+        }
+        .submit{
+            margin-left: 50%;
+            cursor: pointer;
+            
+        }
+        .content{
+            box-sizing: border-box;
+            background-color: white;
+            margin: auto;
+            padding: 10px;
+            width: 90%;
+            line-height:30px;
+        }
+        h1{
+            text-align:center;
+            margin-top:auto;
+        }
+        .headingbox{
+            text-align: center;
+        }
+        .cw{
+            float:left;
+            width:45%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">Survey Form</h1>
+    <div class="content">
+        <form>
+            <div class="headingbox">
+                <div>
+                    <p>Let us know how we cn imporve freecodecamp</p><br>
+                </div>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name=Name id="name" placeholder="Enter your name" >
+                </div><br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" email="Emil" id="email" placeholder="Enter your Email">
+                </div><br>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" age="Age" id="age" placeholder="Enter your Age">
+                </div><br>
+            </div>
+            <div>
+                <label class="cw"for="currentrole">Which option best describes your current role </label>
+                <select name="currentrole" id="currentrole">
+                    <option value="Select">select</option>
+                    <option value="Sudent">student</option>
+                    <option value="Employee">employee</option>
+                    <option value="Unemployed">unemployed</option>
+                </select>
+            </div><br>
+            <div>
+              <label class="cw" for="opinion">How likely is that you would recommend freecodecamp to a friend?</label>
+              <input type="radio",name=opinion value="Definetly">
+              <label for="Definently">Definetly</label>
+              <input type="radio",name=opinion value="Maybe">
+              <label for="Maybe">Maybe</label>
+              <input type="radio",name=opinion value="Not Sure">
+              <label for="Not Sure">Not Sure</label>
+              
+            </div> <br>
+            <div>
+                <label class="cw" for="fcc">What do you like most in FCC:</label>
+                <select name="fcc" id="fcc">
+                    <option value="Select an option">select an option</option>
+                    <option value="open source">Open source</option>
+                    <option value="projects">Project</option>
+                    <option value="challenges">Challenges</option>
+                </select>
+            </div><br>
+            <div>
+                <label class="cw" for="future">Things should be improved in future(check all that apply)</label>
+                <input type="checkbox" name="front-end project" id="future" value="front-end project">
+                <label for="front-end project">Front-end Project</label>
+                <input type="checkbox" name="back-end project" id="back-end project" value="back-end project">
+                <label for="back-end project">Back-end Project</label>
+                <input type="checkbox" name="data visualization" id="data visualization">
+                <label for="data visualization">Data Visualization</label>
+            </div><br>
+            <div class="submit">
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
+

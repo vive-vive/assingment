@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME TABLE</title>
+    <style>
+        table{
+             border-collapse:collapse; 
+        }
+        table,th,td{
+            border:4px solid black;
+        }
+        td{
+            height:30px;
+            width:80px;
+        }
+        .boxtitle,.rows,.colum{
+            text-align: center;
+            font-size:20px;
+        }
+        .table{
+            margin: auto;
+            margin-top:100px;
+            width:20%
+
+        }
+        p{
+            text-align: center;
+            color:green;
+            text-decoration:underline;
+            font-size:35px;
+        }
+    </style>
+</head>
+<body>
+     <div class="table">
+     <p>School Time Table </p> <br>
+    <table>
+        <thead class="boxtitle">
+            <th colspan="6">TimeTable</th>
+          
+        </thead>
+        <tr class="rows">
+            <th rowspan="6">Hour</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td> 
+            <td>Science</th>
+            <th>Maths</td>
+            <td>Sports</td>          
+        </tr>
+        <tr class="colum">
+        <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>
+
+        </table>
+
+     </div>
+
+
+
+</body>
+
+</html/>
